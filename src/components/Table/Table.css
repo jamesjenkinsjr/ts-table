@@ -1,0 +1,84 @@
+.table {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.table__header {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.table__list {
+  list-style-type: none;
+  width: 1200px;
+}
+
+.table__list-item-checkbox {
+  margin-right: 12px;
+}
+
+.table__list-heading {
+  border: 2px solid #eef0f5;
+  color: #4d526b;
+  font-weight: 500;
+  padding: 6px 12px !important;
+}
+
+.table__list-heading-cell, .table__list-item-cell {
+  font-size: 14px;
+  margin: unset;
+  margin-right: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.table__list-heading-cell--contact, .table__list-item-cell--contact {
+  align-items: center;
+  display: flex;
+  font-weight: 500;
+  width: 250px;
+}
+
+.table__list-heading-cell--value, .table__list-item-cell--value {
+  width: 150px;
+}
+
+.table__list-heading-cell--location, .table__list-item-cell--location {
+  width: 200px;
+}
+
+.table__list-heading-cell--deals, .table__list-item-cell--deals {
+  width: 150px;
+}
+
+.table__list-item {
+  align-items: center;
+  border-left: 2px solid #eef0f5;
+  border-right: 2px solid #eef0f5;
+  display: flex;
+  padding: 12px;
+}
+
+.table__list-item:hover {
+  background-color: #f8faff;
+}
+
+.table__list-item:nth-child(odd) {
+  border-bottom: 2px solid #eef0f5;
+  border-top: 2px solid #eef0f5;
+}
+
+.table__name-avatar {
+  background-color: #e4d7fe;
+  border-radius: 100%;
+  color: #1e1e25;
+  font-size: 12px;
+  font-weight: 700;
+  margin-right: 8px;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+}
